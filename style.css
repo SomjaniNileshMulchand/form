@@ -10,11 +10,11 @@ body{
 body{
     background-image: url(brooke-cagle-unsplash.jpg);
 }   
-h1,p{
+h2,p{
     text-align: center;
     color: white;
 }
-h1{
+h2{
     padding-top: 1rem;
 }
 p{
@@ -65,4 +65,43 @@ h4{
     margin-right: 0.625rem;
     min-height: 1.25rem;
     min-width: 1.25rem;
+}
+@media (max-width:1400px) {
+    .form{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width:1200px) {
+    .text{
+        width: 20rem;
+    }
+}
+
+@media (max-width:1200px) {
+    .tet{
+        width: 20rem;
+    }
+}
+
+@media (max-width:1200px) {
+    .area{
+        width: 20rem;
+    }
+}
+
+@media (max-width:1200px) {
+    .sub{
+        width: 20rem;
+    }
+}
+
+@media (max-width:1200px) {
+    body{
+        background-image: url(stefan-stefancik-unsplash.jpg);
+        background-repeat: no-repeat;
+        
+    }
+    
 }
