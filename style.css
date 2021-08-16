@@ -68,8 +68,8 @@ h4{
 }
 @media (max-width:1400px) {
     .form{
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
@@ -97,11 +97,8 @@ h4{
     }
 }
 
-@media (max-width:1200px) {
+@media (max-width:1400px) {
     body{
-        background-image: url(stefan-stefancik-unsplash.jpg);
-        background-repeat: no-repeat;
-        
+        background-color: antiquewhite;
     }
-    
 }
