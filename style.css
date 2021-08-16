@@ -3,16 +3,17 @@
     padding: 0;
 }
 body{
-    color: white;
+    color: rgb(190, 105, 105);
     font-size: 1.2rem;
     font-family: sans-serif;
 }
 body{
-    background-image: url(brooke-cagle-unsplash.jpg);
+    /* background-image: url(brooke-cagle-unsplash.jpg); */
+    background-color: antiquewhite;
 }   
 h2,p{
     text-align: center;
-    color: white;
+    color: rgb(29, 27, 27);
 }
 h2{
     padding-top: 1rem;
@@ -98,7 +99,7 @@ h4{
 }
 
 @media (max-width:1400px) {
-    body{
+    .bo{
         background-color: antiquewhite;
     }
 }
